@@ -1,0 +1,44 @@
+.header {
+	background-color:grey;
+	height: 100px;
+	color: white;
+	border: 20px;
+	text-align: left;
+	font-size: 18px;
+	padding: 20px;
+	width: 100%;
+}
+
+.navigation {
+	font-family: 'Harmattan', sans-serif;
+	font-size: 20px;
+	text-align: center;
+	/*padding: 10px;*/
+}
+
+.main-body {
+	background: url('../images/hills.jpg') center / cover;
+	position: relative;
+}
+
+
+p {
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 18px;
+	text-align: left;
+}
+
+a:link {
+  color: yellow;
+  text-decoration: none;
+  font-family: 'Gloria Hallelujah', sans-serif;
+  font-size: 30px;
+  padding: 20px;
+  text-align: center;
+}
+.main-footer {
+	height: 100px;
+	background-color: grey;
+	width: 100%;
+	text-align: center;
+}
