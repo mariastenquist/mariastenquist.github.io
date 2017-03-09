@@ -1,44 +1,90 @@
 .header {
-	background-color:grey;
+	/*position: relative;*/
+	background-color: #545251;
 	height: 100px;
-	color: white;
-	border: 20px;
-	text-align: left;
-	font-size: 18px;
-	padding: 20px;
-	width: 100%;
 }
 
 .navigation {
 	font-family: 'Harmattan', sans-serif;
 	font-size: 20px;
 	text-align: center;
-	/*padding: 10px;*/
+	word-spacing: 1em;
+	padding: 20px;
 }
 
 .main-body {
-	background: url('../images/hills.jpg') center / cover;
-	position: relative;
+	background: url('../images/viaferrata.jpg') no-repeat center fixed;
+  background-size: cover;
+	height: 900px;
+	width: 100%;
 }
-
-
 p {
+	position: relative;
 	font-family: 'Gloria Hallelujah', cursive;
-	font-size: 18px;
-	text-align: left;
+	font-size: 30px;
+	text-align: right;
+	padding: 10px;
+}
+.blog-body {
+	background: url('../images/snow.jpg') no-repeat center fixed;
+  background-size: cover;
+	height: 900px;
+	width: 100%;
+}
+p.blog-content {
+	position: absolute;
+	font-size: 24px;
+	font-weight: bold;
+	background-color: #EFF1F8;
+	opacity: .6;
+	padding: 15px;
+	margin-top: 100px;
+	text-align: center;
+}
+p.tech-topic {
+	position: absolute;
+	font-size: 24px;
+	color: white;
+	background-color: #323F5F;
+	opacity: .6;
+	margin-top: 400px;
+	margin-right:10px;
+	text-align: center;
+	padding: 15px;
+}
+img {
+	margin-left: 500px;
+	margin-top: 150px;
+}
+.connect-body {
+	height: 600px;
 }
 
+.project-body {
+	height: 600px;
+}
+
+.links {
+	color: #6080F5;
+}
 a:link {
-  color: yellow;
   text-decoration: none;
   font-family: 'Gloria Hallelujah', sans-serif;
   font-size: 30px;
   padding: 20px;
-  text-align: center;
+}
+i {
+	color: #6080F5;
+	padding: 5px;
 }
 .main-footer {
 	height: 100px;
-	background-color: grey;
-	width: 100%;
+	background-color: #545251;
+	text-align: center;
+	padding: 15px;
+}
+.footer-text {
+	font-size: 18px;
+	font-family: 'Gloria Hallelujah', sans-serif;
 	text-align: center;
 }
